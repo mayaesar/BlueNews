@@ -1,0 +1,143 @@
+
+body {
+    font-family: monospace;
+    overflow: hidden;
+    width: auto;
+    height: 100%;
+}
+
+header {
+    font-family: monospace;
+    background-color: royalblue;
+    font-size: 50px;
+    text-align: center;
+    top:0;
+    height: 10%;
+}
+
+hr {
+    height: 5px;
+    color: royalblue;
+    background-color: royalblue;
+}
+
+#date {
+    text-align: center;
+    font-size: 15px;
+}
+
+#tabs {
+    text-align: center;
+    float:left;
+    width: 100%;
+    background-color: royalblue;
+} 
+
+a:link {
+    color: white;
+}
+a:hover {
+    color: royalblue;
+    background-color: dodgerblue;
+}
+a:visited {
+    color: white;
+}
+
+#notNatural {
+    position: absolute;
+    margin: auto;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    background-color: gainsboro;
+    border: 30px;
+    border-color: royalblue;
+    border-radius: 20px;
+    bottom: 60%;
+    right: 80%;
+    
+}
+
+li {
+    width: 15%;
+    float: left;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    list-style-type: none;
+    font-size: 3.5em;
+    
+    background-color: royalblue;
+    
+}
+
+div.columns {
+    width: 100%;
+    padding: inherit;
+}
+
+section.selection {
+    float: left;
+    overflow: auto;
+}
+
+section.article1 {
+    width: 25%;
+    float: left;
+    height: 700px;
+    overflow: scroll;
+    padding: 10px;
+}
+
+section.article2 {
+    width: 25%;
+    float: left;
+    height: 700px;
+    overflow: scroll;
+    padding: 10px;
+}
+
+section.article3 {
+    width: 25%;
+    float: left;
+    height: 700px;
+    overflow: scroll;
+    padding: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+#odd {
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+
+#even {
+    width: 200px;
+    float: right;
+    padding: 10px;
+}
+
+aside.ads {
+    width: 20%;
+    float: left;
+    height: 700px;
+    overflow: scroll;
+    padding: 10px;
+}
+
+#ads {
+    width: 350px;
+}
+
+div.footer{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 1%;
+}
